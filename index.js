@@ -2,7 +2,7 @@
 const { Client, GatewayIntentBits } = require('discord.js');
 const fs = require('fs');
 const path = './bosses.json';
-const token = '你的 Token 放這裡';
+const token = process.env.token;
 
 const client = new Client({
   intents: [

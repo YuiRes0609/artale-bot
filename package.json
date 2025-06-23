@@ -1,1 +1,1 @@
-{"name": "artale-bot", "version": "1.0.0", "main": "index.js", "scripts": {"start": "node index.js"}, "dependencies": {"discord.js": "^14.20.0"}}
+{"name":"artale-bot","version":"1.0.0","main":"index.js","scripts":{"start":"node index.js"},"dependencies":{"discord.js":"^14.20.0","dotenv":"^16.5.0"}}
